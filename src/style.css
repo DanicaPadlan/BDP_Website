@@ -1,0 +1,84 @@
+body {
+  background-color: #38B6FF;
+}
+
+.main-content {
+  background-color: brown;
+
+
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+
+.full-section {
+  background-color: white;
+  opacity: .5;
+  height: auto;
+  width: 1200px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  text-align: center;
+}
+
+
+.half-section {
+
+  height: 400px;
+  width: 620px;
+
+  display: inline-block;
+  border: 1px solid black;
+  vertical-align: middle;
+}
+
+/* From Geeks4Geeks demo*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: hsl(0, 0%, 20%);
+    overflow: hidden;
+    height: 30px;
+
+    /*
+    width: 800px; 
+    */
+    
+    align-content: center;
+
+    /* Centers navbar*/
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
