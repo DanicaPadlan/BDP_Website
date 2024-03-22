@@ -1,40 +1,74 @@
 body {
   background-color: #38B6FF;
+  margin: auto;
 }
 
-.main-content {
-  background-color: brown;
+footer {
+  background-color: #623002;
+  text-align: center;
 
+  height: 50px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
 
-  display: table;
-  margin-right: auto;
-  margin-left: auto;
+.navbar {
+
+  padding: 2%;
+
   text-align: center;
 }
 
+.top-title {
 
-.full-section {
+  margin: auto;
+  padding: 2%;
+  padding-bottom: 50px;
+
+  text-align: center;
+}
+
+.video-trailer {
+  background-color: #A4DBFF;
+  width: 640px;
+  height: 360px;
+
+  margin: auto;
+  padding: 3%;
+  text-align: center;
+}
+
+.brown-section {
+  background-color: #623002;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.tan-section {
+  background-color: #EFE2B9;
+  text-align: center;
+  margin-top: -50px;
+
+  height: 600px;
+}
+
+.parent-box {
+  text-align: center;
+}
+
+.child-box {
   background-color: white;
-  opacity: .5;
-  height: auto;
-  width: 1200px;
+  border: 1px solid white;
 
-  margin-right: auto;
-  margin-left: auto;
+  width: 200px;
+  height: 300px;
 
-  text-align: center;
-}
-
-
-.half-section {
-
-  height: 400px;
-  width: 620px;
-
+  padding: 5%;
+  margin: 5%;
   display: inline-block;
-  border: 1px solid black;
   vertical-align: middle;
 }
+
 
 /* From Geeks4Geeks demo*/
 
