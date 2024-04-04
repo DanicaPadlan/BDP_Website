@@ -6,16 +6,22 @@ body {
 footer {
   background-color: #623002;
   text-align: center;
+  color: white;
 
-  height: 50px;
+  height: 100px;
   margin-top: -20px;
   margin-bottom: -20px;
+  text-align: center;
+}
+
+.aspen-games-text {
+  padding-top: 25px;
 }
 
 .navbar {
 
   padding: 2%;
-
+  
   text-align: center;
 }
 
@@ -47,9 +53,75 @@ footer {
 .tan-section {
   background-color: #EFE2B9;
   text-align: center;
+  height: 600px;
+}
+
+.team-section {
+  /* border-color: rgb(148, 206, 233);
+  border-style: solid;
+  border-width: 5px; */
+
+  width: 1500px;
+  height: auto;
+
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  text-align: center;
+
+}
+
+.team-row {
+  text-align: center;
+
+  /* border-color: rgb(144, 132, 223);
+  border-style: solid;
+  border-width: 5px; */
+
+  margin-top: 50px;
+  height: auto;
+}
+
+.team-profile {
+  text-align: center;
+
+  /* border-color: rgb(79, 83, 141);
+  border-style: solid;
+  border-width: 5px; */
+
+  /*margin-top: 10px;*/
+  margin-left: 20px;
+  margin-right: 20px;
+
+  /* width: 60px and height: 70px ratio */
+  width: 300px;
+  height: 350px;
+
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.team-profile img {
+  width: 90%;
+  height: auto;
+}
+
+.team-member-label {
+  background-color: #FFE34C;
+  border-radius: 50px;
+
+  position: absolute;
   margin-top: -50px;
 
-  height: 600px;
+
+  /* height: 33.3 px and width: 100px base ratio*/
+  height: 100px;
+  width: 300px;
+}
+
+.team-member-label h4 {
+  margin: -15px;
 }
 
 .parent-box {
@@ -59,6 +131,7 @@ footer {
 .child-box {
   background-color: white;
   border: 1px solid white;
+  border-radius: 25px;
 
   width: 200px;
   height: 300px;
@@ -70,6 +143,10 @@ footer {
 }
 
 
+
+
+
+
 /* From Geeks4Geeks demo*/
 
 /* Add a black background color to the top navigation */
@@ -77,10 +154,6 @@ footer {
     background-color: hsl(0, 0%, 20%);
     overflow: hidden;
     height: 30px;
-
-    /*
-    width: 800px; 
-    */
     
     align-content: center;
 
