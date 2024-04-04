@@ -12,26 +12,31 @@
 
     <!-- Navbar -->
     <div class="navbar">
-        <a class="active" href="home.html">Home</a>
+        <a href="home.html">Home</a>
         <a href=#>About</a>
-        <a href="contact.html">Team</a>
+        <a class="active" href="contact.html">Team</a>
     </div>
 
-    <!-- Title Section -->
-    <div class="top-title">
 
-        <p style="font-size: 90px; color: #FFE34C">
+    <!-- Title Section -->
+    <div class="team-title">
+        <p style="color: #FFE34C; font-size: 80px;">
             Meet the flock
-        </p>
+        </p>       
+    </div>   
+    
+    <!--Background Images-->
+    <div class="background-team" style="z-index: 2;">
+        <img src="images/FinishedAssets/Left_Tree_Taller_Background.png" style="top:-500px">
 
         <!--
-        <img src="images/CarrieGameArt/Title Art-02.png" alt="Featherbound" width="400px" height="auto">
-        -->
-    </div>    
+        <img src="images/FinishedAssets/Right_Tree_Background.png">
+            -->
+    </div>
 
-    <div class="team-section">
+    <div class="team-section" style="z-index: 3; position:relative;">
 
-        <div class="team-row" style="margin-top:50px">
+        <div class="team-row">
             <div class="team-profile">
 
                 <img src="images/Placeholders/DefaultProfilePic.png">
@@ -72,7 +77,7 @@
             </div>
         </div>
 
-        <div class="team-row" style="margin-bottom:50px">
+        <div class="team-row" style="margin-top:50px;">
 
             <div class="team-profile">
 
@@ -102,12 +107,10 @@
         
     </div>
 
+    <footer style="z-index: 1;">
+        <div class="aspen-games-text">
+            <h3>© 2023 Aspen Games. All Rights Reserved.</h3>
+        </div>  
+    </footer>
 </body>
-
-<footer>
-    <div class="aspen-games-text">
-        <h3>© 2023 Aspen Games. All Rights Reserved.</h3>
-    </div>  
-</footer>
-
 </html>

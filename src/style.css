@@ -19,19 +19,67 @@ footer {
 }
 
 .navbar {
-
   padding: 2%;
-  
   text-align: center;
 }
 
-.top-title {
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 75px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    color: white;
+    text-decoration: white dotted underline;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    /* background-color: #04AA6D; */
+    color: #f2f2f2;
+    text-decoration: #f2f2f2 underline;
+  }
 
+.top-title {
   margin: auto;
-  padding: 2%;
   padding-bottom: 50px;
 
   text-align: center;
+}
+
+.team-title {
+  margin: auto;
+  margin-top: -75px;
+  margin-bottom: -50px;
+  text-align: center;
+}
+
+.background {
+  position: absolute;
+  top: -100px;
+  left: -25px;
+}
+
+.background img {
+  width: 90%;
+  height: auto;
+}
+
+.background-team {
+  position: absolute;
+  top: -146px;
+  left: -25px;
+}
+
+.background-team img {
+  width: 90%;
+  height: auto;
 }
 
 .video-trailer {
@@ -65,11 +113,14 @@ footer {
   height: auto;
 
   margin: auto;
-  margin-top: 100px;
+  /* margin-bottom: 0px;
+  margin-top: 0px; */
+
+  /* padding-top: 25px; */
+  margin-top: 150px;
   margin-bottom: 100px;
 
   text-align: center;
-
 }
 
 .team-row {
@@ -79,27 +130,27 @@ footer {
   border-style: solid;
   border-width: 5px; */
 
-  margin-top: 50px;
   height: auto;
 }
 
 .team-profile {
   text-align: center;
-
-  /* border-color: rgb(79, 83, 141);
+/* 
+  border-color: rgb(79, 83, 141);
   border-style: solid;
   border-width: 5px; */
 
   /*margin-top: 10px;*/
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 
   /* width: 60px and height: 70px ratio */
   width: 300px;
-  height: 350px;
+  height: 325px;
 
   display: inline-block;
   vertical-align: middle;
+  text-align: center;
 }
 
 .team-profile img {
