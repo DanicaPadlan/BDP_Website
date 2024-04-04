@@ -62,8 +62,6 @@ footer {
 
 .background {
   position: absolute;
-  top: -100px;
-  left: -25px;
 }
 
 .background img {
@@ -71,10 +69,28 @@ footer {
   height: auto;
 }
 
-.background-team {
-  position: absolute;
+.background-home-left {
+  top: -100px;
+  left: -25px;
+}
+
+.background-team-left {
   top: -146px;
   left: -25px;
+}
+
+.background-home-right {
+  top: -100px;
+  left: 1196px;
+  width: 32%;
+  height: auto;
+}
+
+.background-team-right {
+  top: -95px;
+  left: 1200px;
+  width: 32%;
+  height: auto;
 }
 
 .background-team img {
