@@ -172,6 +172,7 @@ footer {
 .team-profile img {
   width: 90%;
   height: auto;
+  border: 10px solid white;
 }
 
 .team-member-label {
