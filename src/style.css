@@ -193,7 +193,17 @@ footer {
 }
 
 .parent-box {
+
+  /*debugging borders*/
+  /* border-color: rgb(148, 206, 233);
+  border-style: solid;
+  border-width: 5px; */
+
   text-align: center;
+  margin-top: -10px;
+
+  padding-top: 50px;
+  padding-bottom: 75px;
 }
 
 .child-box {
@@ -201,18 +211,45 @@ footer {
   border: 1px solid white;
   border-radius: 25px;
 
-  width: 200px;
-  height: 300px;
+  width: 374px;
+  height: 450px;
 
-  padding: 5%;
-  margin: 5%;
+  /* padding: 5%;
+  margin: 5%; */
+
+  margin-left: 90px;
+  margin-right: 90px;
+
   display: inline-block;
   vertical-align: middle;
 }
 
+.child-box img {
+  margin-top: 25px;
+  width: 90%;
+  border: 10px solid white;
+}
 
+.child-box h1 {
+  /* border-color: rgb(39, 25, 161);
+  border-style: solid;
+  border-width: 5px; */
 
+  font-size: 40px;
+  margin: 0;
+}
 
+#high-concept {
+  /*debugging borders*/
+  /* border-color: rgb(255, 40, 212);
+  border-style: solid;
+  border-width: 5px; */
+
+  color: white;
+  padding-top: 50px;
+  padding-left: 400px; 
+  padding-right: 400px;
+}
 
 
 /* From Geeks4Geeks demo*/
