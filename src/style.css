@@ -175,6 +175,10 @@ footer {
   border: 10px solid white;
 }
 
+.team-profile h3 {
+  margin-top: -15px;
+}
+
 .team-member-label {
   background-color: #FFE34C;
   border-radius: 50px;
