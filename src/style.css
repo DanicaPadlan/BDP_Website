@@ -1,13 +1,8 @@
-/* html {
-  width: 100%;
-  margin: 0px;
-} */
-
-
 body {
   background-color: #38B6FF;
   margin: auto;
   font-family: "Grandstander", "PT Sans", Calibri, Tahoma, sans-serif;
+  overflow-x: hidden;
 }
 
 footer {
@@ -88,7 +83,8 @@ footer {
 
 .background-home-right {
   top: -100px;
-  left: 1196px;
+  /*left: 200px; */ /* 1196px */
+  margin-left: 1196px;
   width: 32%;
   height: auto;
 }
