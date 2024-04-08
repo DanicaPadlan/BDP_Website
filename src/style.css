@@ -282,6 +282,7 @@ footer {
 
   height: 750px;
   width: 5760px;
+  opacity: 0.25;
   animation: slide 30s linear infinite;
 }
 
