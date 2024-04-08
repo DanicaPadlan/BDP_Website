@@ -1,3 +1,9 @@
+/* html {
+  width: 100%;
+  margin: 0px;
+} */
+
+
 body {
   background-color: #38B6FF;
   margin: auto;
@@ -89,7 +95,7 @@ footer {
 
 .background-team-right {
   top: -95px;
-  left: 1200px;
+  left: 1196px; /* 1200px*/
   width: 32%;
   height: auto;
 }
@@ -270,6 +276,9 @@ footer {
 .scrolling-image-container {
   position: absolute;
   overflow: hidden;
+
+  height: 750px;
+  width: 1650px;
 }
 
 .scrolling-image {
@@ -277,7 +286,7 @@ footer {
 
   height: 750px;
   width: 5760px;
-  animation: slide 20s linear infinite;
+  animation: slide 30s linear infinite;
 }
 
 @keyframes slide {
